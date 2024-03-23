@@ -12,12 +12,12 @@
 
     <section class="bg-[url(./assets/bi1.jpg)] w-full  bg-center bg-cover bg-fixed ">
       
-      <header class="bg-[#ffffff]">
+      <header class="bg-[#ffffff] ">
 
         <nav class="flex items-center justify-between px-8 h-36 lg:h-32 lg:gap-40 border-b-2 border-gray-200">
           <a href="#"><img src="./assets/logo.png" alt="" class="w-28 py-1  lg:py-0 lg:ml-10"></a>
 
-          <div class="dropdown-menu absolute -top-full left-0 max-lg:bg-[#ffffff] w-full flex flex-col items-center gap-6 py-6 text-lg lg:text-2xl text-gray-500 lg:text-lg font-bold lg:font-semibold lg:static  lg:flex-row justify-between lg:justify-end lg:px-12">
+          <div class="dropdown-menu absolute -top-full left-0 max-lg:bg-[#ffffff] w-full flex flex-col items-center gap-6 py-6 text-lg lg:text-2xl text-gray-700 lg:text-lg font-semibold lg:font-semibold lg:static  lg:flex-row justify-between lg:justify-end lg:px-12">
             <ul class="flex flex-col items-center gap-8 lg:flex-row lg:gap-10">
               <li class="hover:text-black"><a href="#">About</a></li>
               <li class="hover:text-black"><a href="#">Services</a></li>
@@ -182,7 +182,7 @@
 
       let toggleBtn = document.querySelector(".toggle-button");
       let dropdown = document.querySelector(".dropdown-menu");
-      let icon = document.queryselector(".icon");
+      let icon = document.querySelector(".icon");
 
       toggleBtn.addEventListener("click", () => {
         dropdown.classList.toggle('top-36');
